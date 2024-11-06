@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yan Lanka App Download</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a5e; /* Dark blue background */
+            color: #ffd700; /* Gold text color */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Cover image styling */
+        .cover {
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            background-image: url('cover.jpg'); /* Path to your cover image */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+
+        /* QR Code Section */
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Company name styling in body */
+        .company-name {
+            margin-top: 20px;
+        }
+
+        .company-name .yan {
+            font-family: "Brush Script MT", cursive;
+            font-size: 3em;
+        }
+
+        .company-name .lanka {
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            font-size: 2.5em;
+        }
+
+        .qr-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .qr-item {
+            background-color: #292a48; /* Slightly lighter dark blue */
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            width: 200px;
+        }
+
+        .qr-item h2 {
+            font-size: 1.5em;
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+
+        .qr-item img {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 15px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+        }
+
+        .qr-item a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .qr-item a:hover {
+            color: #ffc700;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cover Section with image -->
+    <div class="cover">
+        <!-- Empty cover section, just an image now -->
+    </div>
+
+    <!-- Company name below the cover -->
+    <div class="company-name">
+        <h1 class="yan">Yan</h1>
+        <h2 class="lanka">Lanka</h2>
+    </div>
+
+    <!-- Text under the company name -->
+    <div class="container">
+        <h1>Download Our App for Android, iOS, and Huawei</h1>
+
+        <div class="qr-container">
+            <!-- Android QR Code -->
+            <div class="qr-item">
+                <h2>Android</h2>
+                <img src="Android.PNG" alt="Android App QR Code">
+                <p><a href="YOUR_ANDROID_GOOGLE_DRIVE_LINK" target="_blank">Download for Android</a></p>
+            </div>
+
+            <!-- iOS QR Code -->
+            <div class="qr-item">
+                <h2>iOS</h2>
+                <img src="IOS.PNG" alt="iOS App QR Code">
+                <p><a href="YOUR_IOS_GOOGLE_DRIVE_LINK" target="_blank">Download for iOS</a></p>
+            </div>
+
+            <!-- Huawei QR Code -->
+            <div class="qr-item">
+                <h2>Huawei</h2>
+                <img src="Huawei.PNG" alt="Huawei App QR Code">
+                <p><a href="YOUR_HUAWEI_GOOGLE_DRIVE_LINK" target="_blank">Download for Huawei</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
